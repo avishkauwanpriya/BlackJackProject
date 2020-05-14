@@ -1,0 +1,49 @@
+*{
+    font-family: "Kristen ITC";
+}
+body{
+    padding: 50px;
+}
+.main-container{
+    margin: 30px auto;
+    text-align: center;
+}
+
+button{
+    font-family: sans-serif;
+    margin: 10px 5px;
+
+
+}
+div{
+    border: 2px black solid;
+}
+
+
+.row1 .left-block ,.row1 .right-block{
+    width: 50%;
+    padding: 200px;
+    color: white;
+
+}
+
+
+.row2 .button-Container{
+
+    margin: 10px auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.row1,.row2,row3{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("blackJack background.jpg");
+    background-size: cover;
+}
+.row3 {
+
+    margin: 10px auto;
+}
